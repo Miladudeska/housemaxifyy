@@ -1,0 +1,83 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+env/
+venv/
+.venv/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore zipped backups
+*.zip
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore model binaries
+*.h5
+*.pkl
+*.joblib
+
+# Ignore large dataset files
+data/raw/
+data/temp/
+
+# Project folders to ignore (local archives)
+/data/
+/dat/
+local_data_archive/
+
+# Model artifacts and binary pickles
+/models/
+
+# Flask/portal runtime/user data
+/real_estate_portal/user_data.csv
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Notebook outputs (optional: keep .ipynb but ignore outputs)
+*.nbconvert.ipynb
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test artifacts
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Logs and databases
+*.sqlite3
+*.db
+
+# Misc
+instance/
+user_data.csv
+
+# Keep README, requirements, notebooks and source under version control
